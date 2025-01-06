@@ -2,9 +2,11 @@ body {
     font-family: Roboto;
     outline: 2px solid lime;
     height: 100%;
+    margin: 0%;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
 }
 
 .container {
@@ -13,32 +15,48 @@ body {
     outline: 2px solid lime;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .header {
     outline: 2px solid lime;
     margin: 0 auto;
-    width: 100%;
+    padding: 10px 20px;
+    width: 70%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between; /* Space between links and logo */
+    align-items: center; /* Align items vertically */
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.links {
+    display: flex;
+    gap: 20px; /* Space between links */
+    flex-wrap: wrap;
+    max-width: 70%;
+}
+
+.links span {
+    font-size: 18px;
+    color: #E5E7EB;
+    white-space: nowrap;
 }
 
 .header h1 {
     font-size: 24px;
     color: #F9FAF8;
-}
-
-.header ul {
-    font-size: 18px;
-    color: #E5E7EB;
+    margin: 0;
+    text-align: right;
+    flex-shrink: 0;
 }
 
 .title {
     outline: 2px solid lime;
-
+    color: #F9FAF8;
+    width: 35%;
 }
 
 .title a {
@@ -54,5 +72,5 @@ body {
 
 .image {
     outline: 2px solid lime;
-
+    
 }
