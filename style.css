@@ -86,5 +86,9 @@ body {
 
 .image {
     outline: 2px solid lime;
-    
+}
+
+img {
+    width: 28%;
+    height: auto;
 }
