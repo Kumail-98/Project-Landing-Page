@@ -1,6 +1,6 @@
 body {
     font-family: Roboto;
-    outline: 2px solid lime;
+    /* outline: 2px solid lime; */
     height: 100%;
     margin: 0%;
     padding: 0;
@@ -12,7 +12,7 @@ body {
 .container {
     color: #F9FAF8;
     background-color: #1F2937;
-    outline: 2px solid lime;
+    /* outline: 2px solid lime; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +21,7 @@ body {
 }
 
 .header {
-    outline: 2px solid lime;
+    /* outline: 2px solid lime; */
     margin: 0 auto;
     padding: 10px 20px;
     width: 70%;
@@ -58,37 +58,108 @@ body {
 
 
 .content {
-    outline: 2px solid lime;
+    /* outline: 2px solid lime; */
     margin: 0 auto;
     padding: 10px 20px;
+    width: 70%;
+    gap: 270px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: space-between; */
 }
 
 .title {
-    outline: 2px solid lime;
+    /* outline: 2px solid lime; */
     color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 35%;
-}
-
-.title a {
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
 .title h2 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.title a {
+    font-size: 18px;
+    color: #E5E7EB;
+    line-height: 1.5;
+}
+
+.title button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    align-self: flex-start;
+    border: transparent;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
 }
 
 .image {
-    outline: 2px solid lime;
+    /* outline: 2px solid lime; */
+    color: #F9FAF8;
+    width: 65%;
+    object-fit: contain;
 }
 
 img {
-    width: 28%;
-    height: auto;
+    display: block;
+    max-width: 500px;
+    max-height: 220px;
+    width: 2;
+    height: 1;
 }
+
+/* Divider Between Blue and White Background */
+
+.container2 {
+    background-color: #F9FAF8;
+    /* outline: 2px solid lime; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.info h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.boxes button {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #2563eb; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: transparent; /* No background */
+    cursor: pointer;
+  }
+  
+  .subtext {
+    margin-top: 10px; /* Add spacing between button and text */
+    font-size: 0.9rem; /* Adjust font size */
+    color: #1F2937; /* Neutral gray color */
+    line-height: 1.4; /* Adjust line spacing */
+  }
