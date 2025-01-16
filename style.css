@@ -18,6 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    padding-bottom: 50px;
 }
 
 .header {
@@ -54,7 +55,7 @@ body {
 }
 
 
-/* Divider between Header and Content Div  */
+/* --------------------Divider between Header and Content Div-----------------------  */
 
 
 .content {
@@ -69,9 +70,6 @@ body {
     align-items: center;
     box-sizing: border-box;
     flex-wrap: wrap;
-    /* flex-direction: column;
-    align-items: center;
-    justify-content: space-between; */
 }
 
 .title {
@@ -122,7 +120,7 @@ img {
     height: 1;
 }
 
-/* Divider Between Blue and White Background */
+/* --------------------Divider Between Blue and White Background----------------------- */
 
 .container2 {
     background-color: #F9FAF8;
@@ -133,6 +131,7 @@ img {
     align-items: center;
     text-align: center;
     box-sizing: border-box;
+    padding: 50px;
 }
 
 .info h2 {
@@ -163,3 +162,36 @@ img {
     color: #1F2937; /* Neutral gray color */
     line-height: 1.4; /* Adjust line spacing */
   }
+
+  /* ---------------------Next Div------------------------ */
+
+  .container3 {
+    background-color: #E5E7EB;
+    padding: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text {
+    display: inline-block;
+    text-align: left;
+    border-radius: 5px;
+  }
+
+  .quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 5px;
+  }
+
+  .author {
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 0;
+    text-align: right;
+  }
+
+  /* --------------------Next Div------------------- */
