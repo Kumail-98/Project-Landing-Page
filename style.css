@@ -195,3 +195,70 @@ img {
   }
 
   /* --------------------Next Div------------------- */
+
+  .container4 {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 100px;
+  }
+
+  .bluebox {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100px;
+    width: 650px;
+    max-width: 70%;
+  }
+
+  .bluebutton {
+    background-color: transparent;
+    color: #f8f9fa;
+    font-size: 14px;
+    border: 2px solid #f8f9fa;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+  }
+
+  .bluebox h2 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 0.05;
+  }
+
+  .bluebox p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    opacity: 0.9;
+  }
+
+/*-----------------------Footer---------------------------------*/
+
+  .footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    /* outline: 2px solid lime; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 25px;
+  }
+
+  .footer h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+  }
